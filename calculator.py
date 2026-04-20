@@ -1,8 +1,14 @@
 from math import *
+
+#print gui
 print('Operations: + = Addition   - = Subtraction   x = Multiplication   / = Division   ^ = Exponent   sq = Square root')
-first=input('First Number: ')
-operator=input('Operation: ')
-second=input('Second Number: ')
+
+#inputs
+first = input('First Number: ')
+operator = input('Operation: ')
+second = input('Second Number: ')
+
+#calculation
 if operator=='-':
    ans=float(first) - float(second)
    print('Answer: ' + str(ans))
